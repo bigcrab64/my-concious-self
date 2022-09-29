@@ -16,6 +16,7 @@
 		F7DD6AF628E215FA00F17648 /* my_concious_selfTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD6AF528E215FA00F17648 /* my_concious_selfTests.swift */; };
 		F7DD6B0028E215FA00F17648 /* my_concious_selfUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD6AFF28E215FA00F17648 /* my_concious_selfUITests.swift */; };
 		F7DD6B0228E215FA00F17648 /* my_concious_selfUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD6B0128E215FA00F17648 /* my_concious_selfUITestsLaunchTests.swift */; };
+		F7FA39A628E3660200276C5F /* MoreStuffViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7FA39A528E3660200276C5F /* MoreStuffViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		F7DD6AFB28E215FA00F17648 /* my concious selfUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "my concious selfUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DD6AFF28E215FA00F17648 /* my_concious_selfUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_concious_selfUITests.swift; sourceTree = "<group>"; };
 		F7DD6B0128E215FA00F17648 /* my_concious_selfUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = my_concious_selfUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F7FA39A528E3660200276C5F /* MoreStuffViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoreStuffViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		F7DD6AD228E215F800F17648 = {
 			isa = PBXGroup;
 			children = (
+				F7FA39A528E3660200276C5F /* MoreStuffViewController.swift */,
 				F7DD6ADD28E215F800F17648 /* my concious self */,
 				F7DD6AF428E215FA00F17648 /* my concious selfTests */,
 				F7DD6AFE28E215FA00F17648 /* my concious selfUITests */,
@@ -260,6 +263,7 @@
 			files = (
 				F7DD6AE328E215F800F17648 /* ViewController.swift in Sources */,
 				F7DD6ADF28E215F800F17648 /* AppDelegate.swift in Sources */,
+				F7FA39A628E3660200276C5F /* MoreStuffViewController.swift in Sources */,
 				F7DD6AE128E215F800F17648 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
