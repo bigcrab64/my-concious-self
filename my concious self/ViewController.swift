@@ -11,8 +11,6 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var frameForPics: UIImageView!
     
-
-    
     @IBOutlet weak var personalityTypeTitle: UILabel!
     
     @IBOutlet weak var personalityTypeDescription: UILabel!
@@ -41,7 +39,7 @@ class ViewController: UIViewController {
         view.backgroundColor = UIColor.init(red: 0.0, green: 0.950, blue: 0.57, alpha: 1.0)
         
         currentPic += 1
-        if currentPic == 3 {
+        if currentPic == 4 {
             currentPic = 1
         }
         switch currentPic{
@@ -74,12 +72,16 @@ class ViewController: UIViewController {
             default:
                 print(":(")
             }
+        case 3:
+            frameForPics.image = UIImage(named: "meOnDrviersPermit")
+            personalityTypeTitle.text = "INFP"
+            personalityTypeDescription.text = "I am a mediator, meaning I'm an introvert, I'm intuitive, I think a lot with my feelings, and am perceptive."
         default:
             print(":(")
         }
     }
     @IBAction func SwitchScene(_ sender: UIButton) {
-        performSegue(withIdentifier: "mySegue", sender: nil)
+        
     }
     
     

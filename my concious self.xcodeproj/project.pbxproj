@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F76476B728E7593E00FF75FF /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76476B628E7593E00FF75FF /* FavoritesViewController.swift */; };
+		F76476B928E7615600FF75FF /* FavsSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F76476B828E7615600FF75FF /* FavsSceneViewController.swift */; };
 		F7DD6ADF28E215F800F17648 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD6ADE28E215F800F17648 /* AppDelegate.swift */; };
 		F7DD6AE128E215F800F17648 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD6AE028E215F800F17648 /* SceneDelegate.swift */; };
 		F7DD6AE328E215F800F17648 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7DD6AE228E215F800F17648 /* ViewController.swift */; };
@@ -37,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F76476B628E7593E00FF75FF /* FavoritesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		F76476B828E7615600FF75FF /* FavsSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavsSceneViewController.swift; sourceTree = "<group>"; };
 		F7DD6ADB28E215F800F17648 /* my concious self.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "my concious self.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7DD6ADE28E215F800F17648 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7DD6AE028E215F800F17648 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +85,7 @@
 		F7DD6AD228E215F800F17648 = {
 			isa = PBXGroup;
 			children = (
+				F76476B628E7593E00FF75FF /* FavoritesViewController.swift */,
 				F7FA39A528E3660200276C5F /* MoreStuffViewController.swift */,
 				F7DD6ADD28E215F800F17648 /* my concious self */,
 				F7DD6AF428E215FA00F17648 /* my concious selfTests */,
@@ -106,6 +111,7 @@
 				F7DD6AE028E215F800F17648 /* SceneDelegate.swift */,
 				F7DD6AE228E215F800F17648 /* ViewController.swift */,
 				F7DD6AE428E215F800F17648 /* Main.storyboard */,
+				F76476B828E7615600FF75FF /* FavsSceneViewController.swift */,
 				F7DD6AE728E215FA00F17648 /* Assets.xcassets */,
 				F7DD6AE928E215FA00F17648 /* LaunchScreen.storyboard */,
 				F7DD6AEC28E215FA00F17648 /* Info.plist */,
@@ -262,8 +268,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7DD6AE328E215F800F17648 /* ViewController.swift in Sources */,
+				F76476B928E7615600FF75FF /* FavsSceneViewController.swift in Sources */,
 				F7DD6ADF28E215F800F17648 /* AppDelegate.swift in Sources */,
 				F7FA39A628E3660200276C5F /* MoreStuffViewController.swift in Sources */,
+				F76476B728E7593E00FF75FF /* FavoritesViewController.swift in Sources */,
 				F7DD6AE128E215F800F17648 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,11 +452,13 @@
 				DEVELOPMENT_TEAM = 725K596GTU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "my concious self/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "All About Julian";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -472,11 +482,13 @@
 				DEVELOPMENT_TEAM = 725K596GTU;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "my concious self/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "All About Julian";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
